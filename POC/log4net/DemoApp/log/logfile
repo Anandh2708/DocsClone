@@ -1,0 +1,2 @@
+2022-11-30 14:40:30,438 INFO MovieBooking.Controllers.LogController.Log[33]-MESSAGE:Client Log :File:main.jsLine Number:88Message:Fatal message
+2022-11-30 14:40:30,441 INFO MovieBooking.Controllers.LogController.Log[33]-MESSAGE:Client Log :File:main.jsLine Number:87Message:Error message

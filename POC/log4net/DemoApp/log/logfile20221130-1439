@@ -1,0 +1,12 @@
+2022-11-30 14:39:40,689 INFO Microsoft.Hosting.Lifetime.?[?]-MESSAGE:Now listening on: http://localhost:5247
+2022-11-30 14:39:40,921 INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0]-MESSAGE:Application started. Press Ctrl+C to shut down.
+2022-11-30 14:39:40,927 INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0]-MESSAGE:Hosting environment: Development
+2022-11-30 14:39:40,931 INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0]-MESSAGE:Content root path: C:\Users\Jananipriya.T\OneDrive - Brillio\logger\log4netdemo\DemoApp\DemoApp\
+2022-11-30 14:39:41,212 INFO MovieBooking.Controllers.LogController.Log[33]-MESSAGE:Client Log :File:main.jsLine Number:88Message:Fatal message
+2022-11-30 14:39:41,210 INFO MovieBooking.Controllers.LogController.Log[33]-MESSAGE:Client Log :File:main.jsLine Number:87Message:Error message
+2022-11-30 14:39:49,284 INFO MovieBooking.Controllers.LogController.Log[33]-MESSAGE:Client Log :File:main.jsLine Number:88Message:Fatal message
+2022-11-30 14:39:49,320 INFO MovieBooking.Controllers.LogController.Log[33]-MESSAGE:Client Log :File:main.jsLine Number:87Message:Error message
+2022-11-30 14:39:52,257 INFO MovieBooking.Controllers.LogController.Log[33]-MESSAGE:Client Log :File:main.jsLine Number:87Message:Error message
+2022-11-30 14:39:52,266 INFO MovieBooking.Controllers.LogController.Log[33]-MESSAGE:Client Log :File:main.jsLine Number:88Message:Fatal message
+2022-11-30 14:39:56,132 INFO MovieBooking.Controllers.LogController.Log[33]-MESSAGE:Client Log :File:main.jsLine Number:87Message:Error message
+2022-11-30 14:39:56,138 INFO MovieBooking.Controllers.LogController.Log[33]-MESSAGE:Client Log :File:main.jsLine Number:88Message:Fatal message

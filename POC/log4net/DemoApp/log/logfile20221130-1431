@@ -1,0 +1,4 @@
+2022-11-30 14:31:09,549 INFO log4net.Controllers.WeatherForecastController.Get[24]-MESSAGE:Getting Weather Forecast
+2022-11-30 14:31:25,448 INFO log4net.Controllers.WeatherForecastController.Get[24]-MESSAGE:Getting Weather Forecast
+2022-11-30 14:31:30,780 INFO log4net.Controllers.WeatherForecastController.Get[24]-MESSAGE:Getting Weather Forecast
+2022-11-30 14:31:31,728 INFO log4net.Controllers.WeatherForecastController.Get[24]-MESSAGE:Getting Weather Forecast

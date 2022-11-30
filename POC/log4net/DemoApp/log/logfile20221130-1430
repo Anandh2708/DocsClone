@@ -1,0 +1,8 @@
+2022-11-30 14:30:40,750 INFO Microsoft.Hosting.Lifetime.?[?]-MESSAGE:Now listening on: http://localhost:5247
+2022-11-30 14:30:41,049 INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0]-MESSAGE:Application started. Press Ctrl+C to shut down.
+2022-11-30 14:30:41,063 INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0]-MESSAGE:Hosting environment: Development
+2022-11-30 14:30:41,069 INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0]-MESSAGE:Content root path: C:\Users\Jananipriya.T\OneDrive - Brillio\logger\log4netdemo\DemoApp\DemoApp\
+2022-11-30 14:30:48,384 INFO log4net.Controllers.WeatherForecastController.Get[24]-MESSAGE:Getting Weather Forecast
+2022-11-30 14:30:49,742 INFO log4net.Controllers.WeatherForecastController.Get[24]-MESSAGE:Getting Weather Forecast
+2022-11-30 14:30:50,729 INFO log4net.Controllers.WeatherForecastController.Get[24]-MESSAGE:Getting Weather Forecast
+2022-11-30 14:30:51,477 INFO log4net.Controllers.WeatherForecastController.Get[24]-MESSAGE:Getting Weather Forecast
