@@ -1,0 +1,111 @@
+<!-- <div class="row" >
+    <div class="col col-md-4">
+        <h3>User Login</h3>
+        <form (ngSubmit)="handleLogin()" #loginForm="ngForm">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="email" class="form-control" placeholder="Username" aria-label="Username" 
+                    required email  
+                    name="loginInfo.email" [(ngModel)]="loginInfo.email" aria-describedby="basic-addon1"
+                    #emailField="ngModel">
+            </div>
+
+            <p class="errors text-danger text-sm" *ngIf="!emailField.valid && emailField.dirty">
+
+                <span *ngIf="emailField.errors!['required']">Email Field is Required</span>
+
+                <span *ngIf="emailField.errors!['email']">Email Field is Invalid</span>
+                <span *ngIf="emailField.errors!['domainEmail']">{{emailField.errors!['domainEmail'].message}}</span>
+
+                <span *ngIf="emailField.errors!['uniqueEmail']">{{emailField.errors!['uniqueEmail'].message}}</span>
+
+            </p>
+
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon2">
+                    <i class="fa-solid fa-key"></i>
+                </span>
+                <input type="password" class="form-control" placeholder="password" aria-label="password"
+                    [(ngModel)]="loginInfo.password" aria-describedby="basic-addon1" required minlength="4"
+                    name="loginInfo.password" #passwordField="ngModel" />
+
+            </div>
+            <p class="errors text-danger text-sm" *ngIf="!passwordField.valid && passwordField.dirty">                
+                
+                <span *ngIf="passwordField.errors!['required']">Required</span>
+                <span *ngIf="passwordField.errors!['minlength']">Password should be min {{passwordField.errors!['minlength']!.requiredLength}} characters. You entered {{passwordField.errors!['minlength']!.actualLength}} chars</span>
+
+            </p>
+            <button type="submit" class="btn btn-primary" 
+            [disabled]="!loginForm.valid" 
+            (click)="handleLogin()">
+                <i class="fa-solid fa-unlock"></i> Login
+            </button>
+            <span [class]="statusStyle"> {{status}}</span>
+        </form>
+        <div>
+         
+        </div>
+
+    </div>
+
+
+</div> -->
+    <div class="" style="overflow-y: hidden; overflow-x: hidden; ">
+        <div class="container h-custom">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img src="https://img.freepik.com/premium-vector/two-tickets-icon-illustration-ticket-entrance-event_385450-19.jpg?w=2000"
+                        class="img-fluid" alt="Sample image">
+                </div>
+                <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                    <form (ngSubmit)="handleLogin()" #loginForm="ngForm">
+
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form3Example3" class="form-control form-control-lg" required email
+                                placeholder="Enter a valid email address" name="loginInfo.email"
+                                [(ngModel)]="loginInfo.email" #emailField="ngModel" />
+                            <label class="form-label" for="form3Example3">Email address</label>
+                        </div>
+                        <p class="errors text-danger text-sm" *ngIf="!emailField.valid && emailField.dirty">
+
+                            <span *ngIf="emailField.errors!['required']">Email Field is Required</span>
+
+                            <span *ngIf="emailField.errors!['email']">Email Field is Invalid</span>
+
+                            <span
+                                *ngIf="emailField.errors!['uniqueEmail']">{{emailField.errors!['uniqueEmail'].message}}</span>
+
+                        </p>
+
+
+                        <div class="form-outline mb-3">
+                            <input type="password" id="form3Example4" class="form-control form-control-lg"
+                                [(ngModel)]="loginInfo.password" placeholder="Enter password" required minlength="4"
+                                name="loginInfo.password" #passwordField="ngModel" />
+                            <label class="form-label" for="form3Example4">Password</label>
+                        </div>
+
+                        <p class="errors text-danger text-sm" *ngIf="!passwordField.valid && passwordField.dirty">
+
+                            <span *ngIf="passwordField.errors!['required']">Required</span>
+                            <span *ngIf="passwordField.errors!['minlength']">Password should be min
+                                {{passwordField.errors!['minlength']!.requiredLength}} characters. You entered
+                                {{passwordField.errors!['minlength']!.actualLength}} chars</span>
+
+                        </p>
+                        <div class="text-center text-lg-start mt-4 pt-2">
+                            <button type="submit" class="btn btn-primary btn-lg" [disabled]="!loginForm.valid"
+                                (click)="handleLogin()"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+
+                            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a
+                                    [routerLink]='["/user/register"]' class="link-danger">Register</a></p>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,6 @@
+<movie-editor [(movie)]="movie" (save)="onSave()" [update]=true title="{{ movie?movie.name:''}}" submitName="Update Movie"></movie-editor>
+ <app-popup [(visible)]="showError" title="Verify Details"
+        confirmText="Ok"
+        confirmClass="btn-danger">
+        <p>Some Details are not correct</p>
+</app-popup>

@@ -1,0 +1,96 @@
+<!-- <button class = "book">button button</button> -->
+<div *ngIf="movie">
+    <div class="movie container-fuid" >
+        <div class="row">
+            <div class="col col-4">
+                <img [src]="movie.poster" class="movie-poster" alt="Movie Poster" width="500" height="500">
+            </div>
+            <div class="col col-8 movie-content">
+                <h1>{{movie.name}}</h1>
+                <h3><span style="color:yellow;">&starf;{{movie.rating}}/5</span></h3>
+                <span class="badge bg-light text-dark" style="font-size:18px">{{movie.language}}</span><br><br>
+                <h3>&#x2022; {{movie.duration}} &#x2022; {{movie.genre}} &#x2022; {{movie.certificate}}</h3><br>
+                <button class="btn btn-danger btn-lg book"  (click)="showBookDialog=true"><i class="fa fa-ticket"></i> Book Tickets</button>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h4><b>About the movie</b></h4>
+                <p>{{movie.synopsis}}</p>
+                <hr>
+                <h4><b>Cast</b></h4>
+                <p>{{movie.cast}}</p>
+                <hr>
+                <h4><b>Director</b></h4>
+                <p>{{movie.director}}</p>
+                <hr>
+                <h4><b>Music Director</b></h4>
+                <p>{{movie.musicDirector}}</p>
+                <hr>
+                <h4><b>Release Date</b></h4>
+                <p>{{movie.releaseDate|date:'mediumDate'}}</p>
+                <hr>
+                
+                <h4><b>Ticket Price</b></h4>
+                <p>{{movie.ticketPrice}}</p>
+                <hr>
+                <h4><b>Available Seats</b></h4>
+                <p>{{movie.availableSeats}}</p>
+                <hr>
+            </div>
+            <div>
+                <button class="btn btn-danger delete_book" (click)="showDeleteDialog=true"> <i class="fa fa-trash"></i> Delete</button>
+                &nbsp;
+                <button class="btn btn-primary mx-2" [routerLink]="['/movie/edit',movie!.id]"> <i class="fa-solid fa-pen-to-square"></i> Update</button>
+    
+            </div>
+        </div>
+    
+        <app-popup [(visible)]="showDeleteDialog" title="Delete Movie" [preventDefault]="true"
+        confirmText="Confirm Delete"
+        confirmClass="btn btn-danger" (done)="handleDelete($event)" class="delet-popup">
+            <p>Movie will be deleted permanently</p>
+            <div class="row">
+                <p>Delete movie {{movie.name}}</p>
+            </div>
+        </app-popup>
+    
+        <app-popup [(visible)]="showBookDialog" title="Book Tickets" [preventDefault]="true"
+        confirmText="Book"
+        confirmClass="btn btn-danger" (done)="handleBook($event)" class = "book-popup">
+        <label class="form-label">How many tickets?</label>
+        <form [formGroup]="form">
+            <input type="number" class="form-control"  formControlName="tickets"/>
+        </form>
+        </app-popup>
+    
+        <app-popup [(visible)]="showPaymentDialog" title="Booking Summary" [preventDefault]="true"
+        confirmText="Make Payment"
+        confirmClass="btn-danger" (done)="handlePayment($event)">
+        <p>{{movie.name}}</p>
+        <p>{{ticketsBooked}} Tickets</p>
+        <p>Amount payable {{totalAmount}}</p>
+        </app-popup>
+    
+        <app-popup [(visible)]="showLessSeatsDialog" title="Booking not complete" [preventDefault]="true"
+    
+        confirmText="Ok"
+    
+        confirmClass="btn-danger" (done)="handleLess($event)">
+    
+        <p>{{movie.name}}</p>
+    
+        <p>Only {{movie.availableSeats}} tickets left or it should be greater than 0</p>
+    
+        <!-- <p>Amount payable {{totalAmount}}</p> -->
+    
+        </app-popup>
+    
+    </div>
+
+</div>
+

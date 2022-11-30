@@ -1,0 +1,14 @@
+<div class = "movieCard">
+  <div *ngIf = "movie" class = "card"  [style.width.px]="width" >
+    <img [src] = "movie.poster" class = "card-img-top" alt="..." >
+    <div class="card-body">
+        <h5 class = "card-title">{{movie.name}}</h5>
+        <p class="card-text">{{movie.certificate}} | {{movie.language}}</p>
+        
+    </div>
+  
+  </div>
+
+</div>
+
+

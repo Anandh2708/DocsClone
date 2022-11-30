@@ -1,0 +1,6 @@
+projectKey=booking-app
+serverUrl=http://localhost:9099
+serverVersion=9.7.1.62043
+dashboardUrl=http://localhost:9099/dashboard?id=booking-app
+ceTaskId=AYTB1tBaL9FkHGZAFKrj
+ceTaskUrl=http://localhost:9099/api/ce/task?id=AYTB1tBaL9FkHGZAFKrj

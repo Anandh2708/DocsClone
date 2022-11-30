@@ -1,0 +1,823 @@
+<?xml version='1.0'?>
+<testExecutions version='1'>
+    <file path='src/app/modules/users/components/user-login-screen/user-login-screen.component.spec.ts'>
+        <testCase name='UserLoginScreenComponent should create' duration='346'/>
+        <testCase name='UserLoginScreenComponent should create' duration='15'/>
+        <testCase name='UserLoginScreenComponent should create' duration='17'/>
+        <testCase name='UserLoginScreenComponent should create' duration='178'/>
+        <testCase name='UserLoginScreenComponent should create' duration='29'/>
+        <testCase name='UserLoginScreenComponent should create' duration='39'/>
+        <testCase name='UserLoginScreenComponent should create' duration='117'/>
+        <testCase name='UserLoginScreenComponent should create' duration='43'/>
+        <testCase name='UserLoginScreenComponent should create' duration='28'/>
+        <testCase name='UserLoginScreenComponent should create' duration='25'/>
+        <testCase name='UserLoginScreenComponent should create' duration='33'/>
+        <testCase name='UserLoginScreenComponent should create' duration='23'/>
+        <testCase name='UserLoginScreenComponent should create' duration='140'/>
+    </file>
+    <file path='src/app/modules/users/components/account/account.component.spec.ts'>
+        <testCase name='AccountComponent should update user status to true' duration='49'/>
+        <testCase name='AccountComponent should create' duration='30'/>
+        <testCase name='AccountComponent should update user status to true' duration='14'/>
+        <testCase name='AccountComponent should create' duration='6'/>
+        <testCase name='AccountComponent should update user status to true' duration='16'/>
+        <testCase name='AccountComponent should create' duration='5'/>
+        <testCase name='AccountComponent should create' duration='29'/>
+        <testCase name='AccountComponent should update user status to true' duration='28'/>
+        <testCase name='AccountComponent should update user status to true' duration='18'/>
+        <testCase name='AccountComponent should create' duration='6'/>
+        <testCase name='AccountComponent should update user status to true' duration='102'/>
+        <testCase name='AccountComponent should create' duration='9'/>
+        <testCase name='AccountComponent should update user status to true' duration='66'/>
+        <testCase name='AccountComponent should create' duration='15'/>
+        <testCase name='AccountComponent should update user status to true' duration='14'/>
+        <testCase name='AccountComponent should create' duration='6'/>
+        <testCase name='AccountComponent should update user status to true' duration='10'/>
+        <testCase name='AccountComponent should create' duration='5'/>
+        <testCase name='AccountComponent should create' duration='30'/>
+        <testCase name='AccountComponent should update user status to true' duration='6'/>
+        <testCase name='AccountComponent should create' duration='27'/>
+        <testCase name='AccountComponent should update user status to true' duration='13'/>
+        <testCase name='AccountComponent should create' duration='52'/>
+        <testCase name='AccountComponent should update user status to true' duration='11'/>
+        <testCase name='AccountComponent should create' duration='18'/>
+        <testCase name='AccountComponent should update user status to true' duration='8'/>
+    </file>
+    <file path='src/app/modules/bookings/services/http-book-service.spec.ts'>
+        <testCase name='HttpBookService should get all bookings' duration='28'/>
+        <testCase name='HttpBookService should remove a book by id' duration='8'/>
+        <testCase name='HttpBookService should get a booking by id' duration='10'/>
+        <testCase name='HttpBookService should add a new booking' duration='17'/>
+        <testCase name='HttpBookService should get a booking by  user id' duration='8'/>
+        <testCase name='HttpBookService should get a booking by id' duration='4'/>
+        <testCase name='HttpBookService should get all bookings' duration='5'/>
+        <testCase name='HttpBookService should remove a book by id' duration='4'/>
+        <testCase name='HttpBookService should get a booking by  user id' duration='4'/>
+        <testCase name='HttpBookService should add a new booking' duration='6'/>
+        <testCase name='HttpBookService should add a new booking' duration='7'/>
+        <testCase name='HttpBookService should get a booking by  user id' duration='4'/>
+        <testCase name='HttpBookService should get a booking by id' duration='4'/>
+        <testCase name='HttpBookService should remove a book by id' duration='6'/>
+        <testCase name='HttpBookService should get all bookings' duration='4'/>
+        <testCase name='HttpBookService should add a new booking' duration='6'/>
+        <testCase name='HttpBookService should get a booking by  user id' duration='10'/>
+        <testCase name='HttpBookService should get a booking by id' duration='10'/>
+        <testCase name='HttpBookService should get all bookings' duration='13'/>
+        <testCase name='HttpBookService should remove a book by id' duration='6'/>
+        <testCase name='HttpBookService should add a new booking' duration='4'/>
+        <testCase name='HttpBookService should get a booking by  user id' duration='3'/>
+        <testCase name='HttpBookService should remove a book by id' duration='3'/>
+        <testCase name='HttpBookService should get all bookings' duration='3'/>
+        <testCase name='HttpBookService should get a booking by id' duration='3'/>
+        <testCase name='HttpBookService should get all bookings' duration='6'/>
+        <testCase name='HttpBookService should get a booking by id' duration='6'/>
+        <testCase name='HttpBookService should get a booking by  user id' duration='3'/>
+        <testCase name='HttpBookService should remove a book by id' duration='23'/>
+        <testCase name='HttpBookService should add a new booking' duration='9'/>
+        <testCase name='HttpBookService should remove a book by id' duration='6'/>
+        <testCase name='HttpBookService should get a booking by  user id' duration='4'/>
+        <testCase name='HttpBookService should get all bookings' duration='5'/>
+        <testCase name='HttpBookService should get a booking by id' duration='7'/>
+        <testCase name='HttpBookService should add a new booking' duration='5'/>
+        <testCase name='HttpBookService should get a booking by id' duration='45'/>
+        <testCase name='HttpBookService should get all bookings' duration='5'/>
+        <testCase name='HttpBookService should add a new booking' duration='3'/>
+        <testCase name='HttpBookService should remove a book by id' duration='3'/>
+        <testCase name='HttpBookService should get a booking by  user id' duration='4'/>
+        <testCase name='HttpBookService should get a booking by  user id' duration='6'/>
+        <testCase name='HttpBookService should get a booking by id' duration='2'/>
+        <testCase name='HttpBookService should get all bookings' duration='2'/>
+        <testCase name='HttpBookService should remove a book by id' duration='3'/>
+        <testCase name='HttpBookService should add a new booking' duration='2'/>
+        <testCase name='HttpBookService should add a new booking' duration='2'/>
+        <testCase name='HttpBookService should remove a book by id' duration='2'/>
+        <testCase name='HttpBookService should get a booking by id' duration='2'/>
+        <testCase name='HttpBookService should get all bookings' duration='2'/>
+        <testCase name='HttpBookService should get a booking by  user id' duration='15'/>
+        <testCase name='HttpBookService should get a booking by id' duration='4'/>
+        <testCase name='HttpBookService should get all bookings' duration='2'/>
+        <testCase name='HttpBookService should add a new booking' duration='4'/>
+        <testCase name='HttpBookService should remove a book by id' duration='8'/>
+        <testCase name='HttpBookService should get a booking by  user id' duration='4'/>
+        <testCase name='HttpBookService should get all bookings' duration='13'/>
+        <testCase name='HttpBookService should add a new booking' duration='6'/>
+        <testCase name='HttpBookService should get a booking by  user id' duration='6'/>
+        <testCase name='HttpBookService should get a booking by id' duration='4'/>
+        <testCase name='HttpBookService should remove a book by id' duration='5'/>
+        <testCase name='HttpBookService should add a new booking' duration='4'/>
+        <testCase name='HttpBookService should get a booking by id' duration='3'/>
+        <testCase name='HttpBookService should get a booking by  user id' duration='2'/>
+        <testCase name='HttpBookService should remove a book by id' duration='2'/>
+        <testCase name='HttpBookService should get all bookings' duration='2'/>
+        <testCase name='HttpBookService should add a new booking' duration='8'/>
+        <testCase name='HttpBookService should get all bookings' duration='5'/>
+        <testCase name='HttpBookService should get a booking by  user id' duration='5'/>
+        <testCase name='HttpBookService should remove a book by id' duration='4'/>
+        <testCase name='HttpBookService should get a booking by id' duration='5'/>
+    </file>
+    <file path='src/app/modules/movies/services/http-movie-service.spec.ts'>
+        <testCase name='HttpMovieService should get all movies' duration='8'/>
+        <testCase name='HttpMovieService should get all movies' duration='6'/>
+        <testCase name='HttpMovieService should get all movies' duration='3'/>
+        <testCase name='HttpMovieService should get all movies' duration='8'/>
+        <testCase name='HttpMovieService should get all movies' duration='7'/>
+        <testCase name='HttpMovieService should get all movies' duration='12'/>
+        <testCase name='HttpMovieService should get all movies' duration='10'/>
+        <testCase name='HttpMovieService should get all movies' duration='2'/>
+        <testCase name='HttpMovieService should get all movies' duration='2'/>
+        <testCase name='HttpMovieService should get all movies' duration='13'/>
+        <testCase name='HttpMovieService should get all movies' duration='5'/>
+        <testCase name='HttpMovieService should get all movies' duration='3'/>
+        <testCase name='HttpMovieService should get all movies' duration='5'/>
+    </file>
+    <file path='src/app/modules/movies/components/update-movie/update-movie.component.spec.ts'>
+        <testCase name='UpdateMovieComponent should' duration='48'/>
+        <testCase name='UpdateMovieComponent should give movie for valid movie id' duration='17'/>
+        <testCase name='UpdateMovieComponent should throw error for status code 404' duration='20'/>
+        <testCase name='UpdateMovieComponent should create' duration='15'/>
+        <testCase name='UpdateMovieComponent should throw 400 for bad request' duration='18'/>
+        <testCase name='UpdateMovieComponent should handle error for status code 0' duration='14'/>
+        <testCase name='UpdateMovieComponent should set onSave to be true' duration='30'/>
+        <testCase name='UpdateMovieComponent should throw 400 for bad request' duration='54'/>
+        <testCase name='UpdateMovieComponent should create' duration='6'/>
+        <testCase name='UpdateMovieComponent should set onSave to be true' duration='9'/>
+        <testCase name='UpdateMovieComponent should' duration='9'/>
+        <testCase name='UpdateMovieComponent should give movie for valid movie id' duration='7'/>
+        <testCase name='UpdateMovieComponent should handle error for status code 0' duration='11'/>
+        <testCase name='UpdateMovieComponent should throw error for status code 404' duration='9'/>
+        <testCase name='UpdateMovieComponent should handle error for status code 0' duration='12'/>
+        <testCase name='UpdateMovieComponent should throw error for status code 404' duration='6'/>
+        <testCase name='UpdateMovieComponent should throw 400 for bad request' duration='5'/>
+        <testCase name='UpdateMovieComponent should' duration='6'/>
+        <testCase name='UpdateMovieComponent should create' duration='5'/>
+        <testCase name='UpdateMovieComponent should give movie for valid movie id' duration='5'/>
+        <testCase name='UpdateMovieComponent should set onSave to be true' duration='21'/>
+        <testCase name='UpdateMovieComponent should' duration='24'/>
+        <testCase name='UpdateMovieComponent should give movie for valid movie id' duration='23'/>
+        <testCase name='UpdateMovieComponent should throw 400 for bad request' duration='8'/>
+        <testCase name='UpdateMovieComponent should set onSave to be true' duration='13'/>
+        <testCase name='UpdateMovieComponent should handle error for status code 0' duration='8'/>
+        <testCase name='UpdateMovieComponent should throw error for status code 404' duration='14'/>
+        <testCase name='UpdateMovieComponent should create' duration='8'/>
+        <testCase name='UpdateMovieComponent should set onSave to be true' duration='16'/>
+        <testCase name='UpdateMovieComponent should' duration='12'/>
+        <testCase name='UpdateMovieComponent should throw error for status code 404' duration='16'/>
+        <testCase name='UpdateMovieComponent should create' duration='12'/>
+        <testCase name='UpdateMovieComponent should handle error for status code 0' duration='14'/>
+        <testCase name='UpdateMovieComponent should throw 400 for bad request' duration='10'/>
+        <testCase name='UpdateMovieComponent should give movie for valid movie id' duration='12'/>
+        <testCase name='UpdateMovieComponent should throw 400 for bad request' duration='13'/>
+        <testCase name='UpdateMovieComponent should set onSave to be true' duration='14'/>
+        <testCase name='UpdateMovieComponent should' duration='20'/>
+        <testCase name='UpdateMovieComponent should give movie for valid movie id' duration='10'/>
+        <testCase name='UpdateMovieComponent should handle error for status code 0' duration='13'/>
+        <testCase name='UpdateMovieComponent should create' duration='9'/>
+        <testCase name='UpdateMovieComponent should throw error for status code 404' duration='15'/>
+        <testCase name='UpdateMovieComponent should throw 400 for bad request' duration='19'/>
+        <testCase name='UpdateMovieComponent should' duration='10'/>
+        <testCase name='UpdateMovieComponent should set onSave to be true' duration='8'/>
+        <testCase name='UpdateMovieComponent should give movie for valid movie id' duration='9'/>
+        <testCase name='UpdateMovieComponent should throw error for status code 404' duration='30'/>
+        <testCase name='UpdateMovieComponent should create' duration='7'/>
+        <testCase name='UpdateMovieComponent should handle error for status code 0' duration='12'/>
+        <testCase name='UpdateMovieComponent should throw 400 for bad request' duration='22'/>
+        <testCase name='UpdateMovieComponent should give movie for valid movie id' duration='14'/>
+        <testCase name='UpdateMovieComponent should create' duration='11'/>
+        <testCase name='UpdateMovieComponent should' duration='13'/>
+        <testCase name='UpdateMovieComponent should set onSave to be true' duration='13'/>
+        <testCase name='UpdateMovieComponent should throw error for status code 404' duration='9'/>
+        <testCase name='UpdateMovieComponent should handle error for status code 0' duration='14'/>
+        <testCase name='UpdateMovieComponent should create' duration='6'/>
+        <testCase name='UpdateMovieComponent should throw error for status code 404' duration='5'/>
+        <testCase name='UpdateMovieComponent should handle error for status code 0' duration='5'/>
+        <testCase name='UpdateMovieComponent should set onSave to be true' duration='4'/>
+        <testCase name='UpdateMovieComponent should give movie for valid movie id' duration='6'/>
+        <testCase name='UpdateMovieComponent should throw 400 for bad request' duration='4'/>
+        <testCase name='UpdateMovieComponent should' duration='8'/>
+        <testCase name='UpdateMovieComponent should throw 400 for bad request' duration='20'/>
+        <testCase name='UpdateMovieComponent should create' duration='6'/>
+        <testCase name='UpdateMovieComponent should' duration='8'/>
+        <testCase name='UpdateMovieComponent should handle error for status code 0' duration='7'/>
+        <testCase name='UpdateMovieComponent should throw error for status code 404' duration='5'/>
+        <testCase name='UpdateMovieComponent should set onSave to be true' duration='4'/>
+        <testCase name='UpdateMovieComponent should give movie for valid movie id' duration='5'/>
+        <testCase name='UpdateMovieComponent should create' duration='10'/>
+        <testCase name='UpdateMovieComponent should handle error for status code 0' duration='6'/>
+        <testCase name='UpdateMovieComponent should throw 400 for bad request' duration='6'/>
+        <testCase name='UpdateMovieComponent should throw error for status code 404' duration='5'/>
+        <testCase name='UpdateMovieComponent should set onSave to be true' duration='5'/>
+        <testCase name='UpdateMovieComponent should give movie for valid movie id' duration='5'/>
+        <testCase name='UpdateMovieComponent should' duration='8'/>
+        <testCase name='UpdateMovieComponent should' duration='26'/>
+        <testCase name='UpdateMovieComponent should create' duration='13'/>
+        <testCase name='UpdateMovieComponent should throw error for status code 404' duration='14'/>
+        <testCase name='UpdateMovieComponent should give movie for valid movie id' duration='10'/>
+        <testCase name='UpdateMovieComponent should handle error for status code 0' duration='8'/>
+        <testCase name='UpdateMovieComponent should set onSave to be true' duration='12'/>
+        <testCase name='UpdateMovieComponent should throw 400 for bad request' duration='13'/>
+        <testCase name='UpdateMovieComponent should set onSave to be true' duration='11'/>
+        <testCase name='UpdateMovieComponent should throw error for status code 404' duration='8'/>
+        <testCase name='UpdateMovieComponent should throw 400 for bad request' duration='8'/>
+        <testCase name='UpdateMovieComponent should create' duration='5'/>
+        <testCase name='UpdateMovieComponent should handle error for status code 0' duration='5'/>
+        <testCase name='UpdateMovieComponent should' duration='14'/>
+        <testCase name='UpdateMovieComponent should give movie for valid movie id' duration='8'/>
+        <testCase name='UpdateMovieComponent should handle error for status code 0' duration='25'/>
+        <testCase name='UpdateMovieComponent should throw 400 for bad request' duration='15'/>
+        <testCase name='UpdateMovieComponent should create' duration='15'/>
+        <testCase name='UpdateMovieComponent should' duration='25'/>
+        <testCase name='UpdateMovieComponent should set onSave to be true' duration='28'/>
+        <testCase name='UpdateMovieComponent should give movie for valid movie id' duration='14'/>
+        <testCase name='UpdateMovieComponent should throw error for status code 404' duration='25'/>
+    </file>
+    <file path='src/app/modules/bookings/components/ticket-details/ticket-details.component.spec.ts'>
+        <testCase name='TicketDetailsComponent should correctly render the passed input movie' duration='62'/>
+        <testCase name='TicketDetailsComponent should create' duration='13'/>
+        <testCase name='TicketDetailsComponent should create' duration='11'/>
+        <testCase name='TicketDetailsComponent should correctly render the passed input movie' duration='6'/>
+        <testCase name='TicketDetailsComponent should correctly render the passed input movie' duration='15'/>
+        <testCase name='TicketDetailsComponent should create' duration='8'/>
+        <testCase name='TicketDetailsComponent should correctly render the passed input movie' duration='14'/>
+        <testCase name='TicketDetailsComponent should create' duration='6'/>
+        <testCase name='TicketDetailsComponent should create' duration='19'/>
+        <testCase name='TicketDetailsComponent should correctly render the passed input movie' duration='5'/>
+        <testCase name='TicketDetailsComponent should create' duration='28'/>
+        <testCase name='TicketDetailsComponent should correctly render the passed input movie' duration='16'/>
+        <testCase name='TicketDetailsComponent should correctly render the passed input movie' duration='14'/>
+        <testCase name='TicketDetailsComponent should create' duration='7'/>
+        <testCase name='TicketDetailsComponent should correctly render the passed input movie' duration='6'/>
+        <testCase name='TicketDetailsComponent should create' duration='3'/>
+        <testCase name='TicketDetailsComponent should correctly render the passed input movie' duration='19'/>
+        <testCase name='TicketDetailsComponent should create' duration='4'/>
+        <testCase name='TicketDetailsComponent should correctly render the passed input movie' duration='11'/>
+        <testCase name='TicketDetailsComponent should create' duration='6'/>
+        <testCase name='TicketDetailsComponent should correctly render the passed input movie' duration='18'/>
+        <testCase name='TicketDetailsComponent should create' duration='11'/>
+        <testCase name='TicketDetailsComponent should create' duration='15'/>
+        <testCase name='TicketDetailsComponent should correctly render the passed input movie' duration='8'/>
+        <testCase name='TicketDetailsComponent should create' duration='28'/>
+        <testCase name='TicketDetailsComponent should correctly render the passed input movie' duration='17'/>
+    </file>
+    <file path='src/app/modules/movies/components/add-movie/add-movie.component.spec.ts'>
+        <testCase name='AddMovieComponent should create' duration='26'/>
+        <testCase name='AddMovieComponent should create' duration='14'/>
+        <testCase name='AddMovieComponent should create' duration='6'/>
+        <testCase name='AddMovieComponent should create' duration='10'/>
+        <testCase name='AddMovieComponent should create' duration='40'/>
+        <testCase name='AddMovieComponent should create' duration='16'/>
+        <testCase name='AddMovieComponent should create' duration='10'/>
+        <testCase name='AddMovieComponent should create' duration='16'/>
+        <testCase name='AddMovieComponent should create' duration='5'/>
+        <testCase name='AddMovieComponent should create' duration='5'/>
+        <testCase name='AddMovieComponent should create' duration='10'/>
+        <testCase name='AddMovieComponent should create' duration='14'/>
+        <testCase name='AddMovieComponent should create' duration='105'/>
+        <testCase name='AddMovieComponent should create' duration='10'/>
+    </file>
+    <file path='src/app/modules/bookings/components/booking-list/booking-list.component.spec.ts'>
+        <testCase name='BookingListComponent should create' duration='24'/>
+        <testCase name='BookingListComponent should set handleCancel to be false' duration='11'/>
+        <testCase name='BookingListComponent should set handleCancel to be false' duration='17'/>
+        <testCase name='BookingListComponent should create' duration='8'/>
+        <testCase name='BookingListComponent should create' duration='7'/>
+        <testCase name='BookingListComponent should set handleCancel to be false' duration='5'/>
+        <testCase name='BookingListComponent should create' duration='16'/>
+        <testCase name='BookingListComponent should set handleCancel to be false' duration='14'/>
+        <testCase name='BookingListComponent should create' duration='14'/>
+        <testCase name='BookingListComponent should set handleCancel to be false' duration='8'/>
+        <testCase name='BookingListComponent should create' duration='46'/>
+        <testCase name='BookingListComponent should set handleCancel to be false' duration='14'/>
+        <testCase name='BookingListComponent should set handleCancel to be false' duration='15'/>
+        <testCase name='BookingListComponent should create' duration='7'/>
+        <testCase name='BookingListComponent should create' duration='19'/>
+        <testCase name='BookingListComponent should set handleCancel to be false' duration='9'/>
+        <testCase name='BookingListComponent should create' duration='7'/>
+        <testCase name='BookingListComponent should set handleCancel to be false' duration='4'/>
+        <testCase name='BookingListComponent should set handleCancel to be false' duration='13'/>
+        <testCase name='BookingListComponent should create' duration='22'/>
+        <testCase name='BookingListComponent should set handleCancel to be false' duration='30'/>
+        <testCase name='BookingListComponent should create' duration='7'/>
+        <testCase name='BookingListComponent should set handleCancel to be false' duration='22'/>
+        <testCase name='BookingListComponent should create' duration='9'/>
+        <testCase name='BookingListComponent should set handleCancel to be false' duration='10'/>
+        <testCase name='BookingListComponent should create' duration='7'/>
+        <testCase name='BookingListComponent should set handleCancel to be false' duration='42'/>
+        <testCase name='BookingListComponent should create' duration='17'/>
+    </file>
+    <file path='src/app/modules/shared/pipes/movie-search.pipes.spec.ts'>
+        <testCase name='MovieSearchPipe should create an instance' duration='1'/>
+        <testCase name='MovieSearchPipe should return a empty list when no movie name matches input string' duration='1'/>
+        <testCase name='MovieSearchPipe should return a list with movie name matching input string' duration='2'/>
+        <testCase name='MovieSearchPipe should create an instance' duration='1'/>
+        <testCase name='MovieSearchPipe should return a empty list when no movie name matches input string' duration='1'/>
+        <testCase name='MovieSearchPipe should return a list with movie name matching input string' duration='1'/>
+        <testCase name='MovieSearchPipe should create an instance' duration='0'/>
+        <testCase name='MovieSearchPipe should return a list with movie name matching input string' duration='0'/>
+        <testCase name='MovieSearchPipe should return a empty list when no movie name matches input string' duration='0'/>
+        <testCase name='MovieSearchPipe should return a list with movie name matching input string' duration='112'/>
+        <testCase name='MovieSearchPipe should return a empty list when no movie name matches input string' duration='1'/>
+        <testCase name='MovieSearchPipe should create an instance' duration='1'/>
+        <testCase name='MovieSearchPipe should return a list with movie name matching input string' duration='1'/>
+        <testCase name='MovieSearchPipe should return a empty list when no movie name matches input string' duration='0'/>
+        <testCase name='MovieSearchPipe should create an instance' duration='1'/>
+        <testCase name='MovieSearchPipe should create an instance' duration='0'/>
+        <testCase name='MovieSearchPipe should return a list with movie name matching input string' duration='1'/>
+        <testCase name='MovieSearchPipe should return a empty list when no movie name matches input string' duration='0'/>
+        <testCase name='MovieSearchPipe should return a empty list when no movie name matches input string' duration='1'/>
+        <testCase name='MovieSearchPipe should return a list with movie name matching input string' duration='1'/>
+        <testCase name='MovieSearchPipe should create an instance' duration='1'/>
+        <testCase name='MovieSearchPipe should return a empty list when no movie name matches input string' duration='0'/>
+        <testCase name='MovieSearchPipe should create an instance' duration='0'/>
+        <testCase name='MovieSearchPipe should return a list with movie name matching input string' duration='0'/>
+        <testCase name='MovieSearchPipe should create an instance' duration='0'/>
+        <testCase name='MovieSearchPipe should return a empty list when no movie name matches input string' duration='0'/>
+        <testCase name='MovieSearchPipe should return a list with movie name matching input string' duration='0'/>
+        <testCase name='MovieSearchPipe should create an instance' duration='0'/>
+        <testCase name='MovieSearchPipe should return a empty list when no movie name matches input string' duration='1'/>
+        <testCase name='MovieSearchPipe should return a list with movie name matching input string' duration='0'/>
+        <testCase name='MovieSearchPipe should create an instance' duration='0'/>
+        <testCase name='MovieSearchPipe should return a list with movie name matching input string' duration='1'/>
+        <testCase name='MovieSearchPipe should return a empty list when no movie name matches input string' duration='0'/>
+        <testCase name='MovieSearchPipe should create an instance' duration='0'/>
+        <testCase name='MovieSearchPipe should return a list with movie name matching input string' duration='1'/>
+        <testCase name='MovieSearchPipe should return a empty list when no movie name matches input string' duration='1'/>
+        <testCase name='MovieSearchPipe should create an instance' duration='0'/>
+        <testCase name='MovieSearchPipe should return a list with movie name matching input string' duration='1'/>
+        <testCase name='MovieSearchPipe should return a empty list when no movie name matches input string' duration='1'/>
+        <testCase name='MovieSearchPipe should return a list with movie name matching input string' duration='1'/>
+        <testCase name='MovieSearchPipe should create an instance' duration='0'/>
+        <testCase name='MovieSearchPipe should return a empty list when no movie name matches input string' duration='1'/>
+    </file>
+    <file path='src/app/modules/core/guards/auth.guard.spec.ts'>
+        <testCase name='AuthGuard should be created' duration='7'/>
+        <testCase name='AuthGuard should be created' duration='3'/>
+        <testCase name='AuthGuard should be created' duration='2'/>
+        <testCase name='AuthGuard should be created' duration='4'/>
+        <testCase name='AuthGuard should be created' duration='5'/>
+        <testCase name='AuthGuard should be created' duration='36'/>
+        <testCase name='AuthGuard should be created' duration='6'/>
+        <testCase name='AuthGuard should be created' duration='11'/>
+        <testCase name='AuthGuard should be created' duration='4'/>
+        <testCase name='AuthGuard should be created' duration='20'/>
+        <testCase name='AuthGuard should be created' duration='3'/>
+        <testCase name='AuthGuard should be created' duration='8'/>
+        <testCase name='AuthGuard should be created' duration='4'/>
+        <testCase name='AuthGuard should be created' duration='5'/>
+    </file>
+    <file path='src/app/app.component.spec.ts'>
+        <testCase name='AppComponent should create the app' duration='65'/>
+        <testCase name='AppComponent should have as title &apos;BookingClient&apos;' duration='11'/>
+        <testCase name='AppComponent should have as title &apos;BookingClient&apos;' duration='6'/>
+        <testCase name='AppComponent should create the app' duration='5'/>
+        <testCase name='AppComponent should create the app' duration='4'/>
+        <testCase name='AppComponent should have as title &apos;BookingClient&apos;' duration='3'/>
+        <testCase name='AppComponent should have as title &apos;BookingClient&apos;' duration='10'/>
+        <testCase name='AppComponent should create the app' duration='5'/>
+        <testCase name='AppComponent should create the app' duration='8'/>
+        <testCase name='AppComponent should have as title &apos;BookingClient&apos;' duration='7'/>
+        <testCase name='AppComponent should create the app' duration='22'/>
+        <testCase name='AppComponent should have as title &apos;BookingClient&apos;' duration='7'/>
+        <testCase name='AppComponent should create the app' duration='6'/>
+        <testCase name='AppComponent should have as title &apos;BookingClient&apos;' duration='5'/>
+        <testCase name='AppComponent should create the app' duration='8'/>
+        <testCase name='AppComponent should have as title &apos;BookingClient&apos;' duration='3'/>
+        <testCase name='AppComponent should have as title &apos;BookingClient&apos;' duration='5'/>
+        <testCase name='AppComponent should create the app' duration='3'/>
+        <testCase name='AppComponent should create the app' duration='8'/>
+        <testCase name='AppComponent should have as title &apos;BookingClient&apos;' duration='4'/>
+        <testCase name='AppComponent should have as title &apos;BookingClient&apos;' duration='11'/>
+        <testCase name='AppComponent should create the app' duration='9'/>
+        <testCase name='AppComponent should create the app' duration='6'/>
+        <testCase name='AppComponent should have as title &apos;BookingClient&apos;' duration='5'/>
+        <testCase name='AppComponent should have as title &apos;BookingClient&apos;' duration='130'/>
+        <testCase name='AppComponent should create the app' duration='20'/>
+    </file>
+    <file path='src/app/modules/shared/components/popup/popup.component.spec.ts'>
+        <testCase name='PopupComponent should create' duration='23'/>
+        <testCase name='PopupComponent should set handleDone to be false' duration='7'/>
+        <testCase name='PopupComponent should set handleDone to be false' duration='15'/>
+        <testCase name='PopupComponent should create' duration='8'/>
+        <testCase name='PopupComponent should set handleDone to be false' duration='8'/>
+        <testCase name='PopupComponent should create' duration='2'/>
+        <testCase name='PopupComponent should create' duration='152'/>
+        <testCase name='PopupComponent should set handleDone to be false' duration='31'/>
+        <testCase name='PopupComponent should create' duration='15'/>
+        <testCase name='PopupComponent should set handleDone to be false' duration='6'/>
+        <testCase name='PopupComponent should set handleDone to be false' duration='14793'/>
+        <testCase name='PopupComponent should create' duration='7'/>
+        <testCase name='PopupComponent should create' duration='21'/>
+        <testCase name='PopupComponent should set handleDone to be false' duration='7'/>
+        <testCase name='PopupComponent should create' duration='22'/>
+        <testCase name='PopupComponent should set handleDone to be false' duration='8'/>
+        <testCase name='PopupComponent should set handleDone to be false' duration='5'/>
+        <testCase name='PopupComponent should create' duration='2'/>
+        <testCase name='PopupComponent should create' duration='6'/>
+        <testCase name='PopupComponent should set handleDone to be false' duration='2'/>
+        <testCase name='PopupComponent should set handleDone to be false' duration='164'/>
+        <testCase name='PopupComponent should create' duration='6'/>
+        <testCase name='PopupComponent should create' duration='20'/>
+        <testCase name='PopupComponent should set handleDone to be false' duration='4'/>
+        <testCase name='PopupComponent should set handleDone to be false' duration='11'/>
+        <testCase name='PopupComponent should create' duration='4'/>
+        <testCase name='PopupComponent should create' duration='18'/>
+        <testCase name='PopupComponent should set handleDone to be false' duration='6'/>
+    </file>
+    <file path='src/app/modules/movies/components/movie-details/movie-details.component.spec.ts'>
+        <testCase name='MovieDetailsComponent should correctly render the passed input movie' duration='106'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='17'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be false' duration='10'/>
+        <testCase name='MovieDetailsComponent should set showLessSeatsDialog to be false' duration='12'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='23'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be false' duration='13'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be true' duration='26'/>
+        <testCase name='MovieDetailsComponent book should open popup' duration='56'/>
+        <testCase name='MovieDetailsComponent should create' duration='20'/>
+        <testCase name='MovieDetailsComponent handle book true' duration='29'/>
+        <testCase name='MovieDetailsComponent should calculate and return total amount 500 for ticketprice 100 and ticketsbooked 5' duration='16'/>
+        <testCase name='MovieDetailsComponent should create' duration='14'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be false' duration='10'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be true' duration='15'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='9'/>
+        <testCase name='MovieDetailsComponent book should open popup' duration='31'/>
+        <testCase name='MovieDetailsComponent handle book true' duration='13'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='6'/>
+        <testCase name='MovieDetailsComponent should correctly render the passed input movie' duration='16'/>
+        <testCase name='MovieDetailsComponent should calculate and return total amount 500 for ticketprice 100 and ticketsbooked 5' duration='7'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be false' duration='10'/>
+        <testCase name='MovieDetailsComponent should set showLessSeatsDialog to be false' duration='7'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be true' duration='107'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='7'/>
+        <testCase name='MovieDetailsComponent book should open popup' duration='15'/>
+        <testCase name='MovieDetailsComponent should calculate and return total amount 500 for ticketprice 100 and ticketsbooked 5' duration='6'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be false' duration='19'/>
+        <testCase name='MovieDetailsComponent should set showLessSeatsDialog to be false' duration='5'/>
+        <testCase name='MovieDetailsComponent handle book true' duration='25'/>
+        <testCase name='MovieDetailsComponent should create' duration='8'/>
+        <testCase name='MovieDetailsComponent should correctly render the passed input movie' duration='28'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be false' duration='16'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='6'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='29'/>
+        <testCase name='MovieDetailsComponent handle book true' duration='25'/>
+        <testCase name='MovieDetailsComponent should correctly render the passed input movie' duration='16'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='11'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be false' duration='6'/>
+        <testCase name='MovieDetailsComponent should calculate and return total amount 500 for ticketprice 100 and ticketsbooked 5' duration='5'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be true' duration='7'/>
+        <testCase name='MovieDetailsComponent should create' duration='7'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be false' duration='6'/>
+        <testCase name='MovieDetailsComponent should set showLessSeatsDialog to be false' duration='7'/>
+        <testCase name='MovieDetailsComponent book should open popup' duration='20'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='31'/>
+        <testCase name='MovieDetailsComponent book should open popup' duration='45'/>
+        <testCase name='MovieDetailsComponent should set showLessSeatsDialog to be false' duration='23'/>
+        <testCase name='MovieDetailsComponent handle book true' duration='20'/>
+        <testCase name='MovieDetailsComponent should calculate and return total amount 500 for ticketprice 100 and ticketsbooked 5' duration='9'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be false' duration='13'/>
+        <testCase name='MovieDetailsComponent should correctly render the passed input movie' duration='29'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be false' duration='22'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='19'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be true' duration='84'/>
+        <testCase name='MovieDetailsComponent should create' duration='31'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='28'/>
+        <testCase name='MovieDetailsComponent should create' duration='12'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be true' duration='15'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='6'/>
+        <testCase name='MovieDetailsComponent handle book true' duration='17'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be false' duration='7'/>
+        <testCase name='MovieDetailsComponent book should open popup' duration='16'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be false' duration='9'/>
+        <testCase name='MovieDetailsComponent should set showLessSeatsDialog to be false' duration='13'/>
+        <testCase name='MovieDetailsComponent should calculate and return total amount 500 for ticketprice 100 and ticketsbooked 5' duration='11'/>
+        <testCase name='MovieDetailsComponent should correctly render the passed input movie' duration='17'/>
+        <testCase name='MovieDetailsComponent handle book true' duration='129'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be false' duration='12'/>
+        <testCase name='MovieDetailsComponent should calculate and return total amount 500 for ticketprice 100 and ticketsbooked 5' duration='12'/>
+        <testCase name='MovieDetailsComponent book should open popup' duration='57'/>
+        <testCase name='MovieDetailsComponent should correctly render the passed input movie' duration='41'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='27'/>
+        <testCase name='MovieDetailsComponent should set showLessSeatsDialog to be false' duration='11'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='13'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be true' duration='12'/>
+        <testCase name='MovieDetailsComponent should create' duration='10'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be false' duration='36'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='52'/>
+        <testCase name='MovieDetailsComponent should correctly render the passed input movie' duration='32'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be false' duration='14'/>
+        <testCase name='MovieDetailsComponent should set showLessSeatsDialog to be false' duration='11'/>
+        <testCase name='MovieDetailsComponent handle book true' duration='28'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be true' duration='17'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='15'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be false' duration='14'/>
+        <testCase name='MovieDetailsComponent book should open popup' duration='27'/>
+        <testCase name='MovieDetailsComponent should create' duration='12'/>
+        <testCase name='MovieDetailsComponent should calculate and return total amount 500 for ticketprice 100 and ticketsbooked 5' duration='12'/>
+        <testCase name='MovieDetailsComponent should correctly render the passed input movie' duration='17'/>
+        <testCase name='MovieDetailsComponent book should open popup' duration='14'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be false' duration='5'/>
+        <testCase name='MovieDetailsComponent should create' duration='4'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='4'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be true' duration='4'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='3'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be false' duration='4'/>
+        <testCase name='MovieDetailsComponent should set showLessSeatsDialog to be false' duration='4'/>
+        <testCase name='MovieDetailsComponent handle book true' duration='9'/>
+        <testCase name='MovieDetailsComponent should calculate and return total amount 500 for ticketprice 100 and ticketsbooked 5' duration='4'/>
+        <testCase name='MovieDetailsComponent book should open popup' duration='129'/>
+        <testCase name='MovieDetailsComponent should set showLessSeatsDialog to be false' duration='28'/>
+        <testCase name='MovieDetailsComponent should calculate and return total amount 500 for ticketprice 100 and ticketsbooked 5' duration='7'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='6'/>
+        <testCase name='MovieDetailsComponent should correctly render the passed input movie' duration='31'/>
+        <testCase name='MovieDetailsComponent should create' duration='6'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be false' duration='6'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='24'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be false' duration='7'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be true' duration='21'/>
+        <testCase name='MovieDetailsComponent handle book true' duration='14'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='18'/>
+        <testCase name='MovieDetailsComponent should correctly render the passed input movie' duration='16'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be false' duration='5'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be true' duration='6'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='5'/>
+        <testCase name='MovieDetailsComponent should calculate and return total amount 500 for ticketprice 100 and ticketsbooked 5' duration='5'/>
+        <testCase name='MovieDetailsComponent should create' duration='5'/>
+        <testCase name='MovieDetailsComponent book should open popup' duration='16'/>
+        <testCase name='MovieDetailsComponent should set showLessSeatsDialog to be false' duration='5'/>
+        <testCase name='MovieDetailsComponent handle book true' duration='29'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be false' duration='5'/>
+        <testCase name='MovieDetailsComponent book should open popup' duration='112'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be false' duration='14'/>
+        <testCase name='MovieDetailsComponent should calculate and return total amount 500 for ticketprice 100 and ticketsbooked 5' duration='10'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='12'/>
+        <testCase name='MovieDetailsComponent should set showLessSeatsDialog to be false' duration='10'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='11'/>
+        <testCase name='MovieDetailsComponent should correctly render the passed input movie' duration='30'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be false' duration='9'/>
+        <testCase name='MovieDetailsComponent should create' duration='14'/>
+        <testCase name='MovieDetailsComponent handle book true' duration='20'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be true' duration='11'/>
+        <testCase name='MovieDetailsComponent should correctly render the passed input movie' duration='71'/>
+        <testCase name='MovieDetailsComponent should calculate and return total amount 500 for ticketprice 100 and ticketsbooked 5' duration='13'/>
+        <testCase name='MovieDetailsComponent book should open popup' duration='24'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='8'/>
+        <testCase name='MovieDetailsComponent should set showLessSeatsDialog to be false' duration='8'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='7'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be true' duration='6'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be false' duration='9'/>
+        <testCase name='MovieDetailsComponent should create' duration='8'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be false' duration='8'/>
+        <testCase name='MovieDetailsComponent handle book true' duration='16'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='34'/>
+        <testCase name='MovieDetailsComponent should set showLessSeatsDialog to be false' duration='9'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be false' duration='12'/>
+        <testCase name='MovieDetailsComponent book should open popup' duration='36'/>
+        <testCase name='MovieDetailsComponent should correctly render the passed input movie' duration='22'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be false' duration='9'/>
+        <testCase name='MovieDetailsComponent should create' duration='10'/>
+        <testCase name='MovieDetailsComponent should calculate and return total amount 500 for ticketprice 100 and ticketsbooked 5' duration='9'/>
+        <testCase name='MovieDetailsComponent should set showDeleteDialog to be true' duration='11'/>
+        <testCase name='MovieDetailsComponent handle book true' duration='20'/>
+        <testCase name='MovieDetailsComponent should set showBookDialog to be true' duration='12'/>
+    </file>
+    <file path='src/app/modules/core/components/home/home.component.spec.ts'>
+        <testCase name='HomeComponent should create' duration='21'/>
+        <testCase name='HomeComponent should contain header,footer' duration='12'/>
+        <testCase name='HomeComponent should create' duration='11'/>
+        <testCase name='HomeComponent should contain header,footer' duration='8'/>
+        <testCase name='HomeComponent should create' duration='7'/>
+        <testCase name='HomeComponent should contain header,footer' duration='4'/>
+        <testCase name='HomeComponent should contain header,footer' duration='23'/>
+        <testCase name='HomeComponent should create' duration='14'/>
+        <testCase name='HomeComponent should create' duration='9'/>
+        <testCase name='HomeComponent should contain header,footer' duration='9'/>
+        <testCase name='HomeComponent should create' duration='110'/>
+        <testCase name='HomeComponent should contain header,footer' duration='48'/>
+        <testCase name='HomeComponent should contain header,footer' duration='20'/>
+        <testCase name='HomeComponent should create' duration='8'/>
+        <testCase name='HomeComponent should contain header,footer' duration='86'/>
+        <testCase name='HomeComponent should create' duration='12'/>
+        <testCase name='HomeComponent should contain header,footer' duration='7'/>
+        <testCase name='HomeComponent should create' duration='3'/>
+        <testCase name='HomeComponent should contain header,footer' duration='8'/>
+        <testCase name='HomeComponent should create' duration='4'/>
+        <testCase name='HomeComponent should contain header,footer' duration='8'/>
+        <testCase name='HomeComponent should create' duration='21'/>
+        <testCase name='HomeComponent should contain header,footer' duration='22'/>
+        <testCase name='HomeComponent should create' duration='10'/>
+        <testCase name='HomeComponent should create' duration='13'/>
+        <testCase name='HomeComponent should contain header,footer' duration='7'/>
+        <testCase name='HomeComponent should create' duration='18'/>
+        <testCase name='HomeComponent should contain header,footer' duration='11'/>
+    </file>
+    <file path='src/app/modules/users/components/user-register-screen/user-register-screen.component.spec.ts'>
+        <testCase name='UserRegisterScreenComponent should create' duration='110'/>
+        <testCase name='UserRegisterScreenComponent should create' duration='33'/>
+        <testCase name='UserRegisterScreenComponent should create' duration='24'/>
+        <testCase name='UserRegisterScreenComponent should create' duration='75'/>
+        <testCase name='UserRegisterScreenComponent should create' duration='47'/>
+        <testCase name='UserRegisterScreenComponent should create' duration='77'/>
+        <testCase name='UserRegisterScreenComponent should create' duration='47'/>
+        <testCase name='UserRegisterScreenComponent should create' duration='91'/>
+        <testCase name='UserRegisterScreenComponent should create' duration='15'/>
+        <testCase name='UserRegisterScreenComponent should create' duration='63'/>
+        <testCase name='UserRegisterScreenComponent should create' duration='110'/>
+        <testCase name='UserRegisterScreenComponent should create' duration='70'/>
+        <testCase name='UserRegisterScreenComponent should create' duration='26'/>
+        <testCase name='UserRegisterScreenComponent should create' duration='57'/>
+    </file>
+    <file path='src/app/modules/movies/components/movie-card/movie-card.component.spec.ts'>
+        <testCase name='MovieCardComponent should ' duration='16'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='11'/>
+        <testCase name='MovieCardComponent should create' duration='9'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='9'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='14'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='31'/>
+        <testCase name='MovieCardComponent should ' duration='7'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='9'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='9'/>
+        <testCase name='MovieCardComponent should create' duration='11'/>
+        <testCase name='MovieCardComponent should ' duration='5'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='3'/>
+        <testCase name='MovieCardComponent should create' duration='2'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='3'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='2'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='22'/>
+        <testCase name='MovieCardComponent should ' duration='6'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='7'/>
+        <testCase name='MovieCardComponent should create' duration='5'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='5'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='15'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='7'/>
+        <testCase name='MovieCardComponent should create' duration='5'/>
+        <testCase name='MovieCardComponent should ' duration='7'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='28'/>
+        <testCase name='MovieCardComponent should ' duration='6'/>
+        <testCase name='MovieCardComponent should create' duration='5'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='5'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='5'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='5'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='40'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='12'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='22'/>
+        <testCase name='MovieCardComponent should create' duration='10'/>
+        <testCase name='MovieCardComponent should ' duration='10'/>
+        <testCase name='MovieCardComponent should create' duration='15'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='20'/>
+        <testCase name='MovieCardComponent should ' duration='15'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='13'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='9'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='22'/>
+        <testCase name='MovieCardComponent should ' duration='7'/>
+        <testCase name='MovieCardComponent should create' duration='6'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='7'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='12'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='7'/>
+        <testCase name='MovieCardComponent should create' duration='3'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='3'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='3'/>
+        <testCase name='MovieCardComponent should ' duration='3'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='12'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='5'/>
+        <testCase name='MovieCardComponent should create' duration='19'/>
+        <testCase name='MovieCardComponent should ' duration='3'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='4'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='20'/>
+        <testCase name='MovieCardComponent should create' duration='4'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='5'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='4'/>
+        <testCase name='MovieCardComponent should ' duration='3'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='63'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='12'/>
+        <testCase name='MovieCardComponent should create' duration='4'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='10'/>
+        <testCase name='MovieCardComponent should ' duration='9'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='8'/>
+        <testCase name='MovieCardComponent should create' duration='5'/>
+        <testCase name='MovieCardComponent should ' duration='3'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='4'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='6'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie name' duration='16'/>
+        <testCase name='MovieCardComponent should create' duration='7'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie' duration='7'/>
+        <testCase name='MovieCardComponent should ' duration='6'/>
+        <testCase name='MovieCardComponent should correctly render the passed input movie certificate and language' duration='8'/>
+    </file>
+    <file path='src/app/modules/core/components/header/header.component.spec.ts'>
+        <testCase name='HeaderComponent testing title' duration='23'/>
+        <testCase name='HeaderComponent should create' duration='10'/>
+        <testCase name='HeaderComponent should create' duration='14'/>
+        <testCase name='HeaderComponent testing title' duration='4'/>
+        <testCase name='HeaderComponent should create' duration='8'/>
+        <testCase name='HeaderComponent testing title' duration='5'/>
+        <testCase name='HeaderComponent testing title' duration='58'/>
+        <testCase name='HeaderComponent should create' duration='13'/>
+        <testCase name='HeaderComponent should create' duration='10'/>
+        <testCase name='HeaderComponent testing title' duration='5'/>
+        <testCase name='HeaderComponent should create' duration='42'/>
+        <testCase name='HeaderComponent testing title' duration='8'/>
+        <testCase name='HeaderComponent testing title' duration='18'/>
+        <testCase name='HeaderComponent should create' duration='8'/>
+        <testCase name='HeaderComponent testing title' duration='7'/>
+        <testCase name='HeaderComponent should create' duration='5'/>
+        <testCase name='HeaderComponent should create' duration='8'/>
+        <testCase name='HeaderComponent testing title' duration='4'/>
+        <testCase name='HeaderComponent testing title' duration='10'/>
+        <testCase name='HeaderComponent should create' duration='4'/>
+        <testCase name='HeaderComponent testing title' duration='27'/>
+        <testCase name='HeaderComponent should create' duration='8'/>
+        <testCase name='HeaderComponent should create' duration='10'/>
+        <testCase name='HeaderComponent testing title' duration='4'/>
+        <testCase name='HeaderComponent should create' duration='19'/>
+        <testCase name='HeaderComponent testing title' duration='7'/>
+    </file>
+    <file path='src/app/modules/movies/components/movie-list/movie-list.component.spec.ts'>
+        <testCase name='MovieListComponent should create' duration='23'/>
+        <testCase name='MovieListComponent should create' duration='10'/>
+        <testCase name='MovieListComponent should create' duration='8'/>
+        <testCase name='MovieListComponent should create' duration='88'/>
+        <testCase name='MovieListComponent should create' duration='34'/>
+        <testCase name='MovieListComponent should create' duration='20'/>
+        <testCase name='MovieListComponent should create' duration='23'/>
+        <testCase name='MovieListComponent should create' duration='178'/>
+        <testCase name='MovieListComponent should create' duration='9'/>
+        <testCase name='MovieListComponent should create' duration='10'/>
+        <testCase name='MovieListComponent should create' duration='14'/>
+        <testCase name='MovieListComponent should create' duration='22'/>
+        <testCase name='MovieListComponent should create' duration='13'/>
+        <testCase name='MovieListComponent should create' duration='19'/>
+    </file>
+    <file path='src/app/modules/core/components/footer/footer.component.spec.ts'>
+        <testCase name='FooterComponent should create' duration='11'/>
+        <testCase name='FooterComponent should create' duration='5'/>
+        <testCase name='FooterComponent should create' duration='4'/>
+        <testCase name='FooterComponent should create' duration='16'/>
+        <testCase name='FooterComponent should create' duration='8'/>
+        <testCase name='FooterComponent should create' duration='34'/>
+        <testCase name='FooterComponent should create' duration='9'/>
+        <testCase name='FooterComponent should create' duration='9'/>
+        <testCase name='FooterComponent should create' duration='31'/>
+        <testCase name='FooterComponent should create' duration='4'/>
+        <testCase name='FooterComponent should create' duration='5'/>
+        <testCase name='FooterComponent should create' duration='101'/>
+        <testCase name='FooterComponent should create' duration='5'/>
+        <testCase name='FooterComponent should create' duration='8'/>
+    </file>
+    <file path='src/app/modules/movies/components/movie-editor/movie-editor.component.spec.ts'>
+        <testCase name='MovieEditorComponent should create' duration='87'/>
+        <testCase name='MovieEditorComponent should create' duration='22'/>
+        <testCase name='MovieEditorComponent should create' duration='22'/>
+        <testCase name='MovieEditorComponent should create' duration='39'/>
+        <testCase name='MovieEditorComponent should create' duration='29'/>
+        <testCase name='MovieEditorComponent should create' duration='74'/>
+        <testCase name='MovieEditorComponent should create' duration='57'/>
+        <testCase name='MovieEditorComponent should create' duration='16'/>
+        <testCase name='MovieEditorComponent should create' duration='16'/>
+        <testCase name='MovieEditorComponent should create' duration='31'/>
+        <testCase name='MovieEditorComponent should create' duration='29'/>
+        <testCase name='MovieEditorComponent should create' duration='41'/>
+        <testCase name='MovieEditorComponent should create' duration='27'/>
+    </file>
+    <file path='src/app/modules/users/services/http-user-service.spec.ts'>
+        <testCase name='HttpUserService should register user' duration='9'/>
+        <testCase name='HttpUserService should login user' duration='5'/>
+        <testCase name='HttpUserService should validate email valid' duration='8'/>
+        <testCase name='HttpUserService should register user' duration='2'/>
+        <testCase name='HttpUserService should validate email valid' duration='2'/>
+        <testCase name='HttpUserService should login user' duration='4'/>
+        <testCase name='HttpUserService should validate email valid' duration='2'/>
+        <testCase name='HttpUserService should register user' duration='1'/>
+        <testCase name='HttpUserService should login user' duration='3'/>
+        <testCase name='HttpUserService should validate email valid' duration='3'/>
+        <testCase name='HttpUserService should login user' duration='5'/>
+        <testCase name='HttpUserService should register user' duration='3'/>
+        <testCase name='HttpUserService should validate email valid' duration='3'/>
+        <testCase name='HttpUserService should login user' duration='2'/>
+        <testCase name='HttpUserService should register user' duration='3'/>
+        <testCase name='HttpUserService should register user' duration='4'/>
+        <testCase name='HttpUserService should login user' duration='10'/>
+        <testCase name='HttpUserService should validate email valid' duration='4'/>
+        <testCase name='HttpUserService should validate email valid' duration='3'/>
+        <testCase name='HttpUserService should register user' duration='4'/>
+        <testCase name='HttpUserService should login user' duration='4'/>
+        <testCase name='HttpUserService should login user' duration='5'/>
+        <testCase name='HttpUserService should validate email valid' duration='4'/>
+        <testCase name='HttpUserService should register user' duration='3'/>
+        <testCase name='HttpUserService should validate email valid' duration='2'/>
+        <testCase name='HttpUserService should register user' duration='2'/>
+        <testCase name='HttpUserService should login user' duration='1'/>
+        <testCase name='HttpUserService should register user' duration='4'/>
+        <testCase name='HttpUserService should login user' duration='3'/>
+        <testCase name='HttpUserService should validate email valid' duration='16'/>
+        <testCase name='HttpUserService should validate email valid' duration='8'/>
+        <testCase name='HttpUserService should login user' duration='3'/>
+        <testCase name='HttpUserService should register user' duration='2'/>
+        <testCase name='HttpUserService should validate email valid' duration='5'/>
+        <testCase name='HttpUserService should login user' duration='6'/>
+        <testCase name='HttpUserService should register user' duration='3'/>
+        <testCase name='HttpUserService should login user' duration='3'/>
+        <testCase name='HttpUserService should validate email valid' duration='3'/>
+        <testCase name='HttpUserService should register user' duration='2'/>
+        <testCase name='HttpUserService should validate email valid' duration='5'/>
+        <testCase name='HttpUserService should login user' duration='4'/>
+        <testCase name='HttpUserService should register user' duration='3'/>
+    </file>
+</testExecutions>

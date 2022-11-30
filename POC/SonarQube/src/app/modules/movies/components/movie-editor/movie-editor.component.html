@@ -1,0 +1,118 @@
+<div *ngIf="movie">
+    <h3>{{title}}</h3>
+    <div class="container">
+
+        <div class='row'>
+            <div class="col col-8">
+                <label for="id" class="form-label">Id</label>
+                <input type="text" id="id" class="form-control" [disabled]= "update" 
+                [(ngModel)]='movie.id' required/>
+    
+                <label for="name" class="form-label">Movie Name</label>
+                <input type="text" id="movieName" class="form-control" [(ngModel)]="movie.name" 
+                required/>
+    
+                <label for="photoUrl" class="form-label">Movie Poster</label>
+                <input type="text" id="moviePoster" class="form-control" 
+                [(ngModel)]="movie.poster" required/>
+    
+                <div class="row">
+                <div class="col col-6">
+                    <label for="director" class="form-label">Director</label>
+                    <input type="text" id="director" class="form-control" [(ngModel)]="movie.director" required/>
+                </div> 
+    
+                <div class="col col-6">
+                    <label for="musicDirector" class="form-label">Music Director</label>
+                    <input type="text" id="musicDirector" class="form-control" [(ngModel)]="movie.musicDirector" required/>
+                </div> 
+                </div>
+    
+                
+            <label for="cast" class="form-label">Cast</label>
+            <input type="text" id="cast" class="form-control" [(ngModel)]="movie.cast">
+    
+            <div class="row">
+                <div class="col col-6">
+                    <label for="genre" class="form-label">Genre</label>
+                    <input type="text" id="genre" class="form-control" [(ngModel)]="movie.genre" required/>
+                </div>
+                <div class="col col-6">
+                    <label for="language" class="form-label">Language</label>
+                    <input type="text" id="language" class="form-control" [(ngModel)]="movie.language" required/>
+                </div>
+    
+            </div>
+    
+            <div class="row">
+                <div class="col col-6">
+                    <label for="releaseDate" class="form-label">Release Date</label>
+                    <input type="text" id="releasedate" class="form-control" [(ngModel)]="movie.releaseDate" required/>
+                </div>
+                <div class="col col-6">
+                    <label for="rating" class="form-label">Rating</label>
+                    <input type="number" id="rating" class="form-control" [(ngModel)]="movie.rating" min="0" max="5"  required/>    
+                </div>
+    
+            </div>
+    
+            <div class="row">
+                <div class="col col-6">
+                    <label for="duration" class="form-label">Duration</label>
+                    <input type="text" id="duration" class="form-control" [(ngModel)]="movie.duration" required/>
+                </div>
+                <div class="col col-6">
+                    <label for="certificate" class="form-label">Certificate</label>
+                    <select class="form-select" id="certificate" class="form-control" [(ngModel)]="movie.certificate" required aria-label="Default select example">  
+                        <option selected value="U">U</option>  
+                        <option value="A">A</option>  
+                        <option value="UA">UA</option>
+                    </select>
+                </div>
+    
+            </div>
+    
+            
+    
+            </div>
+            <div class="col col-4 ">
+                <img *ngIf="movie.poster" [src]="movie.poster" class="movie-profile-photo" />
+    
+            </div>
+    
+            
+            
+            <div class="row">
+                
+                <div class="col col-12">
+                    <label for="synopsis" class="form-label">Synopsis</label>
+                    <textarea type="text" id="synopsis" class="form-control" [(ngModel)]="movie.synopsis"
+                        required minlength="50" maxlength="2000">
+                    </textarea>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col col-6">
+                        <label for="ticketPrice" class="form-label">Ticket Price</label>
+                        <input type="number" min="0" id="ticketPrice" class="form-control" [(ngModel)]="movie.ticketPrice" required/>
+                    </div>
+                    <div class="col col-6">
+                        <label for="totalSeats" class="form-label">Total Seats</label>
+                        <input type="number" min="0" id="totalSeats" class="form-control" [(ngModel)]="movie.totalSeats" required/>
+                    </div>
+                </div>
+            
+    
+        </div>
+        <br>
+        <button class="btn btn-primary bg-primary" (click)="onSave()">{{submitName}}</button>
+
+        
+    </div>
+
+
+        
+    
+
+</div>
+

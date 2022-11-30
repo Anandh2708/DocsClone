@@ -1,0 +1,22 @@
+img{
+    width: 350px;
+    height: 400px;
+}
+h2{
+    text-align: center;
+}
+.mail{
+    color: blue;
+}
+.details{
+    
+    border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 40px;
+    width: 1500px;
+    height: 550px;
+    margin: 10px;
+    border: 4px solid #141401;
+    
+}

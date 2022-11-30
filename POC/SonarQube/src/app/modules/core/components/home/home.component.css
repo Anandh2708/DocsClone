@@ -1,0 +1,15 @@
+
+
+.example::-webkit-scrollbar {
+
+    display: none;
+
+}
+
+.movie-slide {
+
+  -ms-overflow-style: none;  
+
+  scrollbar-width: none;  
+
+}

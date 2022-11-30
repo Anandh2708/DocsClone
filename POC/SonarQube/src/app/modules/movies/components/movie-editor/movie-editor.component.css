@@ -1,0 +1,11 @@
+.movie-profile-photo{
+    max-width: 300px;
+    width: 100%;
+    border: 2px solid black;
+    padding: 2px;
+    box-shadow: -5px -5px 5px grey;
+}
+h3{
+    font-style: italic;
+}
+

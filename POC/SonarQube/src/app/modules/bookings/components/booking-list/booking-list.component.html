@@ -1,0 +1,39 @@
+<br>
+<div *ngIf="bookings">
+    <table class="item-list table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Cover</th>
+                <th>Movie Name</th>
+                <th>No Of Tickets</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let booking of bookings">
+                <tr>
+                    <td>
+                        <img  src="{{booking.movie.poster}}"/>
+                    </td>
+                    <td>
+                        {{booking.movie.name}}
+                    </td>
+                    <td>
+                        {{booking.seatsBooked}}
+                    </td>
+                    <td>
+                        <a class='btn btn-primary btn-sm' [routerLink]='["/booking/ticket/",booking.id]'>Details</a>
+                        <a class='btn btn-sm btn-danger' (click)="showCancelDialog=true" (click)="bookingtoBeCancelled=booking" ><i class="fa fa-trash"></i>Cancel My Tickets</a>
+                    </td>
+                </tr>
+            
+        </tbody>
+
+    </table>
+</div>
+
+
+<app-popup [(visible)]="showCancelDialog" title="Ticket Cancellation" [preventDefault]="true"
+    confirmText="Confirm Cancel"
+    confirmClass="btn-danger" (done)="handleCancel($event)">
+        <p>Are you Sure do you want to cancel?</p>
+</app-popup>

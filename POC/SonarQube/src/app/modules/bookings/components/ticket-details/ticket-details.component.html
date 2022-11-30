@@ -1,0 +1,50 @@
+<br>
+
+<div class="details" *ngIf="booking">
+    <h2>Booking Details</h2>
+    <div class="row">
+        <div class="col col-8">
+            <h4>Movie name</h4>
+            <p>{{booking.movie.name}}</p>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <h4>Cast</h4>
+                    <p>{{booking.movie.cast}}</p>
+                </div> 
+                <div class="col">
+                    <h4>Director</h4>
+                    <p>{{booking.movie.director}}</p>
+                    
+                </div> 
+                <div class="col">
+                    <h4>Music Diretor</h4>
+                    <p>{{booking.movie.musicDirector}}</p>
+                </div> 
+                <hr>
+            </div>
+
+            <div class="row">
+                <div class="col col-4">
+                    <h4>Number Of Seats Booked</h4>
+                    <p>{{booking.seatsBooked}}</p>
+                </div>
+                <div class="col col-4">
+                    <h4>Amount Paid</h4>
+                    <p>{{booking.totalAmount}}</p>
+                </div>
+                <div class="col col-4">
+                    <h4>Email</h4>
+                    <p class="mail">{{booking.user.email}}</p>
+                </div>
+                <hr>
+            </div>
+            
+        </div>
+        <div class="col col-4">
+            <img src="{{booking.movie.poster}}" alt="">
+        </div>
+        
+    </div>
+</div>
+
