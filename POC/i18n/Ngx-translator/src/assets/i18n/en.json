@@ -1,0 +1,8 @@
+{
+    "home":{
+        "title": "Home page",
+        "heading":"Angular Translate Demo",
+        "welcome_text": "Stay Positive better days are on the way.",
+        "choose_language": "Choose language"
+    }
+}

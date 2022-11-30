@@ -1,0 +1,9 @@
+{
+    "home":{
+        "title": "Página de inicio",
+        "heading":"Demostración de traducción angular",
+        "welcome_text": "Manténgase positivo mejores días están en camino.",
+        "choose_language": "Elige lengua"
+
+    }
+}

@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    color:#444444;
+    background-color: #efefef;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    a{
+      color: #006699;
+    }
+    .container{
+      width:850px;
+      margin: 0px auto;
+    }
+    button{
+        margin-right: 10px;
+        border:1px solid #444444;
+        background-color: #ffffff;
+        font-size: 14px;
+        padding: 4px 6px;
+    }
+}
