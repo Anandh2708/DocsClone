@@ -1,0 +1,29 @@
+
+
+<div *ngIf="user">
+   
+    <h3 style="margin-left: 100px;">Profile</h3>
+    
+    <div class=" profile row">
+       
+        <div class="col-12 col-md-4">
+
+            <img src="{{user.profilePicture}}" alt="UserProfile">
+
+        </div>
+
+        <div class="col-12 col-md-8">
+
+            <info-line title="Name :" [value]="user.name"></info-line>
+
+            <info-line title="Email :" [value]="user.email"></info-line>
+
+            <info-line title="Gender :" [value]="user.gender"></info-line>
+
+        
+
+        </div>
+
+    </div>
+
+</div>

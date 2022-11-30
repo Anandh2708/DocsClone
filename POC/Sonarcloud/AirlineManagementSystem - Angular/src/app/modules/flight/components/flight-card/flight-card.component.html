@@ -1,0 +1,70 @@
+<div *ngIf="flight" class="container shadow py-2">
+    <div class="card">
+        <div class="row">
+            <div class="col-md-1">
+                <img src="assets/images/plane.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-11">
+                <div class="card-body">
+                    <div class="row">
+                
+                        <div class="col-sm">
+                          {{flight.company}} 
+                          <div class="sub flight-id">{{flight.id}}</div>
+                        </div>
+                
+                        <div class="col-sm">
+                          {{flight.departureTime | date :'medium'}} <i class="fa-sharp fa-solid fa-angle-up"></i>
+                          <div class="sub">{{flight.boarding}}</div>
+                        </div>
+                        
+                        <div class="col-sm"> &nbsp; &nbsp; &nbsp;
+                          <div class="sub">&nbsp; &nbsp; &nbsp; &nbsp;
+                            <i class="fa-solid fa-arrows-left-right"></i>
+                          </div>
+                        </div>
+                        <div class="col-sm">
+                          {{flight.arrivalTime | date :'medium'}} <i class="fa-sharp fa-solid fa-angle-down"></i>
+                          <div class="sub">{{flight.destination}}</div>
+                        </div>
+                        
+                        <div class="col-sm">{{flight.ticketPrice | currency:'INR'}}</div>
+                        <div *ngIf="user" class="col-sm buttonSize" >
+                        <a  class="btn btn-primary book-button" (click)="bookingPopup=true" > <i class=" fa-solid fa-ticket"></i>Book</a>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-popup *ngIf="flight && bookingPopup" [(visible)]="bookingPopup" class="booking-popup" [title]="flight.company" [confirmText]="continueText" (done)="handleBookingForm($event)" [preventDefault]="true">
+   <h6 class="p-3">Flight Id : {{flight.id}}</h6>
+
+   <h6 class="p-3">Price/ticket : {{flight.ticketPrice | currency:'INR'}}</h6>
+
+   <h6 class="p-3">Seats Left : {{flight.seatsLeft}}</h6>
+   
+   <form class="w-50 p-3"   [formGroup]="bookingForm">
+        
+          <div class="input-group mb-3">
+            <input type="number" class="form-control" placeholder="No of Tickets" formControlName="numberOfTickets" />
+        </div>
+
+        <p *ngIf="bookingForm.controls!['numberOfTickets'].invalid && bookingForm.controls!['numberOfTickets'].dirty" class="text-danger text-sm">
+            * Required
+        </p>
+        <p class="p-3" *ngIf="validation" class="text-danger">{{validationText}}</p>
+   </form>
+   
+</app-popup>
+
+<app-popup *ngIf="flight && booking && invoicePopup"  [(visible)]="invoicePopup" class="invoice-popup" title="Booking Invoice" [confirmText]="confirmText" (done)="handleBooking($event)">
+  <h6 class="p-3">Flight Id : {{flight.id}}</h6>
+  <h6 class="p-3">Price/ticket : {{flight.ticketPrice | currency:'INR'}}</h6>
+  <h6 class="p-3">Ticket Count : {{booking.numberOfTickets}}</h6>
+  <h6 class="p-3">Total Price : {{booking.totalPrice | currency:'INR'}}</h6>
+</app-popup>
+

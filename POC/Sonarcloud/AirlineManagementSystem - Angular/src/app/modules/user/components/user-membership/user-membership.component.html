@@ -1,0 +1,21 @@
+<ul class="navbar-nav mb-2 mb-lg-0 ">  
+            
+    <li class="nav-item dropdown">
+      <a  class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+          <img [src]="user.profilePicture" *ngIf="user" [title]="user.name" [alt]="user.name" />
+          <i class="fa-solid fa-user" *ngIf="!user"></i>{{user?user.name:'Guest'}}
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+        <li *ngIf="!user"><a data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="dropdown-item" [routerLink]='["/user/login"]'><i class="fa-solid fa-unlock"></i>Login</a></li>
+        <li *ngIf="!user"><a data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="dropdown-item" [routerLink]='["/user/register"]'><i class="fa-solid fa-user-plus"></i>Register</a></li>
+        
+        <li *ngIf="user"><a class="dropdown-item" [routerLink]='["/user/profile"]' data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"><i class="fa-solid fa-user-check"></i>Profile</a></li>
+
+        <li *ngIf="user"><hr class="dropdown-divider"></li>
+        <li *ngIf="user"><button class="dropdown-item"  (click)="handleLogout()" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"><i class="fa-solid fa-lock"></i>Logout</button></li>
+      
+      </ul>
+    </li>
+   
+</ul>

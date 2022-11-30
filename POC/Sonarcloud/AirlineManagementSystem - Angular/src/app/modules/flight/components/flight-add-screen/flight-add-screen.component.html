@@ -1,0 +1,85 @@
+<form class="w-50 p-3" (ngSubmit)="handleAddFlight()" [formGroup]="form">
+    
+    <h4 class="text-center">Add Flight Details</h4><br>
+
+    <div class="col col-11">
+        <input type="text" class="form-control" placeholder="Id" formControlName="id" />
+    </div><br>
+
+    <p *ngIf="form.controls!['id'].invalid && form.controls!['id'].dirty" class="text-danger text-sm">
+        Required
+    </p>
+
+    <div class="col col-11">
+        <input type="text" class="form-control" placeholder="Company" formControlName="company" />
+    </div><br>
+
+    <p *ngIf="form.controls!['company'].invalid && form.controls!['company'].dirty" class="text-danger text-sm">
+        Required
+    </p>
+
+    <div class="col col-11">
+        <textarea class="form-control" placeholder="Description" formControlName="description"></textarea>
+    </div><br>
+
+    <p *ngIf="form.controls!['description'].invalid && form.controls!['description'].dirty" class="text-danger text-sm">
+        Required
+    </p>
+
+    <div class="col col-11">
+        <input type="text" class="form-control" placeholder="Boarding" formControlName="boarding" />
+    </div><br>
+
+    <p *ngIf="form.controls!['boarding'].invalid && form.controls!['boarding'].dirty" class="text-danger text-sm">
+        Required
+    </p>
+
+    <div class="col col-11">
+        <input type="text" class="form-control" placeholder="Destination" formControlName="destination" />
+    </div><br>
+
+    <p *ngIf="form.controls!['destination'].invalid && form.controls!['destination'].dirty" class="text-danger text-sm">
+        Required
+    </p>
+    
+    <div class="col col-11">
+        <label for="departureTime" class="form-label">Departure Time</label>
+        <input  type="datetime-local" class="form-control" placeholder="DepartureTime" formControlName="departureTime" />
+    </div><br>
+
+    <p *ngIf="form.controls!['departureTime'].invalid && form.controls!['departureTime'].dirty" class="text-danger text-sm">
+        Required
+    </p>
+    
+    <div class="col col-11">
+        <label for="arrivalTime" class="form-label">Arrival Time</label>
+        <input type="datetime-local" class="form-control" placeholder="ArrivalTime" formControlName="arrivalTime" />
+    </div><br>
+
+    <p *ngIf="form.controls!['arrivalTime'].invalid && form.controls!['arrivalTime'].dirty" class="text-danger text-sm">
+        Required
+    </p>
+    
+
+    <div class="col col-11">
+        <input type="text" class="form-control" placeholder="Capacity" formControlName="capacity" />
+    </div><br>
+
+    <p *ngIf="form.controls!['capacity'].invalid && form.controls!['capacity'].dirty" class="text-danger text-sm">
+        Required
+    </p>
+
+    <div class="col col-11">
+        <input type="text" class="form-control" placeholder="TicketPrice" formControlName="ticketPrice" />
+    </div><br>
+
+    <p *ngIf="form.controls!['ticketPrice'].invalid && form.controls!['ticketPrice'].dirty" class="text-danger text-sm">
+        Required
+    </p>
+
+    <button type="submit" class="btn btn-primary mt-4" [disabled]="!form.valid"><i class="fa-solid fa-plus"></i> Add </button>
+
+    <span [class]="statusStyle"> {{status}}</span>
+</form>
+
+
