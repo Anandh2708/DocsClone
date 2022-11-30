@@ -1,0 +1,28 @@
+
+.col-sm{
+    padding-top:6px;
+    font-weight:bold;
+}
+
+.sub{
+    font-weight:normal;
+}
+
+.buttonSize{
+    padding-top:7px;
+}
+
+.card {
+    background-color: #DEF5E5;
+    
+}
+
+.container {
+    width:1100px;
+    
+}
+
+img{
+    width:95px;
+    padding:20px ;
+}

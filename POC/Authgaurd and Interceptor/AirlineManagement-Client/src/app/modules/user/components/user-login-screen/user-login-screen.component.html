@@ -1,0 +1,48 @@
+
+
+<form class="w-50 p-3" style="margin: auto;" (ngSubmit)="handleLogin()" #loginForm="ngForm">
+    <h4 class="text-center">Login</h4>
+
+    <div class="input-group mb-3">
+        <input type="email" class="form-control" placeholder="Email" aria-label="Username" 
+            required email   
+            name="loginInfo.email" [(ngModel)]="loginInfo.email" aria-describedby="basic-addon1"
+            #emailField="ngModel">
+    </div>
+
+    <p class="errors text-danger text-sm" *ngIf="!emailField.valid && emailField.dirty">
+
+        <span *ngIf="emailField.errors!['required']">Email Field is Required</span>
+        <span *ngIf="emailField.errors!['email']">Email Field is Invalid</span>
+
+    </p>
+
+    <div class="input-group mb-3">       
+        <input type="password" class="form-control" placeholder="Password" aria-label="password"
+            [(ngModel)]="loginInfo.password" aria-describedby="basic-addon1" required minlength="4"
+            name="loginInfo.password" #passwordField="ngModel" />
+    </div>
+
+    <p class="errors text-danger text-sm" *ngIf="!passwordField.valid && passwordField.dirty">                
+        
+        <span *ngIf="passwordField.errors!['required']">Required</span>
+        <span *ngIf="passwordField.errors!['minlength']">Password should be minimum {{passwordField.errors!['minlength']!.requiredLength}} characters. You entered {{passwordField.errors!['minlength']!.actualLength}} characters</span>
+
+    </p>
+  
+  
+    <button type="submit" class="btn btn-primary btn-block mt-4" 
+            [disabled]="!loginForm.valid" 
+            >
+                <i class="fa-solid fa-unlock"></i> Login
+            </button>
+            <span [class]="statusStyle"> {{status}}</span>
+  
+    
+  </form>
+
+
+
+
+
+

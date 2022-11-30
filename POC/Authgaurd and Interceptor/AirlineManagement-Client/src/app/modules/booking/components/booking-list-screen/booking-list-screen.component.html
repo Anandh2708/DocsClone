@@ -1,0 +1,18 @@
+
+
+<div *ngIf="bookingList && bookingList.length>0">
+    <h3 style="font-family:serif">Your Bookings</h3>
+    <div *ngFor="let booking of bookingList">
+         <booking-card [booking]="booking"></booking-card>
+         <br>
+    </div>
+</div>
+
+<div *ngIf="bookingList && bookingList.length === 0">
+    <h3 style="font-family:serif;text-align: center;">You Have No Bookings!</h3>
+</div>
+
+
+
+
+

@@ -1,0 +1,91 @@
+
+
+
+<form class="w-50 p-3"  (ngSubmit)="handleRegistration()" [formGroup]="form">
+    
+    <h4 class="text-center">Register</h4>
+
+    <div class="input-group mb-3">
+        <input type="email" class="form-control" placeholder="Username" formControlName="name" />
+    </div>
+
+    <p *ngIf="form.controls!['name'].invalid && form.controls!['name'].dirty" class="text-danger text-sm">
+        Required
+    </p>
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Profile Picture Url"
+            formControlName="profilePicture"/>
+    </div>
+
+    <p *ngIf="form.controls!['profilePicture'].invalid && form.controls!['profilePicture'].dirty"
+        class="text-danger text-sm">
+        Required
+    </p>
+
+    <div class="input-group mb-3">
+        <input type="email" class="form-control" placeholder="Gender" formControlName="gender" />
+    </div>
+
+    <p *ngIf="form.controls!['gender'].invalid && form.controls!['gender'].dirty" class="text-danger text-sm">
+        Required
+    </p>
+
+    <div class="input-group mb-3">
+        <input type="email" class="form-control" placeholder="Email Id" formControlName="email" />
+    </div>
+
+    <ul *ngIf="form.controls!['email'].invalid && form.controls!['email'].dirty" class="text-danger text-sm">
+        <li *ngIf="form.controls!['email'].errors!['required']">Required</li>
+        <li *ngIf="form.controls!['email'].errors!['email']">Invalid Email</li>
+        <li *ngIf="form.controls!['email'].errors!['uniqueEmail']">
+            {{form.controls!['email'].errors!['uniqueEmail'].message}}
+        </li>
+    </ul>
+
+    <div class="input-group mb-3">
+        <input type="password" class="form-control" placeholder="Password" aria-label="password"
+            formControlName="password" />
+    </div>
+
+    <p *ngIf="form.controls!['password'].invalid && form.controls!['password'].dirty"
+        class="text-danger text-sm">
+        <span *ngIf="form.controls!['password'].errors!['required']">Required</span>
+        <span *ngIf="form.controls!['password'].errors!['minlength']">
+            Minimum {{form.controls!['password'].errors!['minlength']!.requiredLength}} characters required. Current is
+            {{form.controls!['password'].errors!['minlength']!.actualLength}}
+        </span>
+        <span *ngIf="form.controls!['password'].errors!['maxlength']">
+            Maximum {{form.controls!['password'].errors!['maxlength']!.requiredLength}} characters required. Current is
+            {{form.controls!['password'].errors!['maxlength']!.actualLength}}
+        </span>
+    </p>
+    <div class="input-group mb-3">
+        <input type="password" class="form-control" placeholder="Re-type password" aria-label="password"
+            formControlName="confirmPassword" />
+    </div>
+
+    <p *ngIf="form.controls!['confirmPassword'].invalid && form.controls!['confirmPassword'].dirty"
+        class="text-danger text-sm">
+        <span *ngIf="form.controls!['confirmPassword'].errors!['required']">Required</span>
+        <span *ngIf="form.controls!['confirmPassword'].errors!['minlength']">
+            Minimum {{form.controls!['confirmPassword'].errors!['minlength']!.requiredLength}} characters required.
+            Current is {{form.controls!['confirmPassword'].errors!['minlength']!.actualLength}}
+        </span>
+        <span *ngIf="form.controls!['confirmPassword'].errors!['maxlength']">
+            Maximum {{form.controls!['confirmPassword'].errors!['maxlength']!.requiredLength}} characters required.
+            Current is {{form.controls!['confirmPassword'].errors!['maxlength']!.actualLength}}
+        </span>
+    </p>
+
+    <p *ngIf="form.controls['password']!.dirty && form.controls['confirmPassword']!.dirty && form.errors && form.errors['compare']"
+        class="text-danger">
+        {{form.errors!['compare'].message}}
+    </p>
+
+   
+    <button type="submit" class="btn btn-primary mt-4" [disabled]="!form.valid"> Register </button>
+
+    <span [class]="statusStyle"> {{status}}</span>
+
+</form>

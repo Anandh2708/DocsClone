@@ -1,0 +1,19 @@
+
+.card {
+    background-color: #DEF5E5;
+    padding: 40px;  
+ 
+}
+
+.container {
+    width:1000px;
+}
+
+img{
+    width:95px;
+    padding:20px ;
+}
+
+.icon{
+    padding-top: 5px;
+}

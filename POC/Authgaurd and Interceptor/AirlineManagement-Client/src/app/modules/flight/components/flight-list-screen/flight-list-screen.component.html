@@ -1,0 +1,52 @@
+
+
+<div class="container shadow py-2" style="width:50%">
+    <div class="card">
+        <form>
+            <div class="form">
+                <form class="row" (ngSubmit)="handleSearch()" [formGroup]="searchForm">
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" placeholder="Boarding" formControlName="boarding">
+                        <p *ngIf="searchForm.controls!['boarding'].invalid && searchForm.controls!['boarding'].dirty" class="text-danger text-sm">
+                            *Required
+                        </p> 
+                    </div>
+                    <div class="col-md-2 icon">
+                        &nbsp; &nbsp; <i class="fa-solid fa-left-right"></i>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" placeholder="Destination" formControlName="destination">
+                        <p *ngIf="searchForm.controls!['destination'].invalid && searchForm.controls!['destination'].dirty" class="text-danger text-sm">
+                            *Required
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                           <button type="submit" class="btn btn-primary" [disabled]="!searchForm.valid" >Search</button> 
+
+                    </div>
+                                     
+                </form>
+            </div>
+          </form>
+    </div>
+
+
+</div>
+
+<br>
+
+
+
+
+<div *ngIf="flights && flights.length>0">
+    <h3 style="font-family:serif">Available Flights</h3>
+    <div *ngFor="let flight of flights">
+        <br>
+        <flight-card [flight]="flight"></flight-card>
+    </div>
+</div>
+
+<div  *ngIf="flights && flights.length===0" >
+    <br>
+    <h3 style="font-family:serif" style="text-align: center;">No Flights Found!</h3>
+</div>
