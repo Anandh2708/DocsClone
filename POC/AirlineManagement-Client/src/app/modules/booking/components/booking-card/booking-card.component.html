@@ -1,0 +1,100 @@
+
+
+<div class="container shadow py-2">
+    <div class="card">
+        <div class="row">
+            <div class="col-md-1">
+                <img src="assets/images/plane.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-11">
+                <div class="card-body">
+                    <div class="row">
+                
+                        <div class="col-sm">
+                          {{booking?.flight?.company}}
+                          <div class="sub flight-id">
+                            {{booking?.flight?.id}}
+                          </div>
+                        </div>
+                
+                        <div class="col-sm">
+                          {{booking?.flight?.departureTime | date :'medium'}} <i class="fa-sharp fa-solid fa-angle-up"></i>
+                          <div class="sub">
+                            {{booking?.flight?.boarding}}
+                          </div>
+                        </div>
+                        
+                        <div class="col-sm" style="padding-left: 10%;"> 
+                          <i class="fa-solid fa-arrows-left-right"></i>
+                        </div>
+
+                        <div class="col-sm">
+                          {{booking?.flight?.arrivalTime | date :'medium'}} <i class="fa-sharp fa-solid fa-angle-down"></i>
+                          <div class="sub">
+                            {{booking?.flight?.destination}}
+                          </div>
+                        </div>
+                        
+                        <div class="col-sm">
+                          {{booking?.flight?.ticketPrice | currency:'INR'}}
+                        </div>
+                        
+                        
+
+                        <div>
+                          
+                          </div>
+                
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col">
+        <h6> No Of Tickets : {{booking?.numberOfTickets}}</h6>
+        <h6>Total Price : {{booking?.totalPrice}}</h6>
+      </div>   
+        <div class="col" style="padding-left: 60%;">
+          <a  class="btn btn-success" (click)="editBookingPopup=true"><i class="fa-regular fa-pen-to-square"></i>Edit</a> &nbsp; &nbsp; &nbsp;
+          <a class="btn btn-danger" (click)="deletePopup=true" ><i class="fa-solid fa-trash-can"></i>Delete</a>
+        </div>
+    </div>
+    
+</div>
+
+
+<app-popup *ngIf="deletePopup" [(visible)]="deletePopup" class="delete-popup" [title]="booking?.flight?.company" [confirmText]="deleteText" [confirmClass]="deleteClass" (done)="handleDeleteBooking($event)">
+  <h6 class="p-3">Flight Id : {{booking?.flight?.id}}</h6>
+  <h6 class="p-3">Price/ticket : {{booking?.flight?.ticketPrice | currency:'INR'}}</h6>
+  <h6 class="p-3">Ticket Count : {{booking?.numberOfTickets}}</h6>
+  <h6 class="p-3">Total Price : {{booking?.totalPrice | currency:'INR'}}</h6>
+</app-popup>
+
+<app-popup *ngIf="booking && editBookingPopup"  [(visible)]="editBookingPopup" class="edit-booking-popup" [title]="booking.flight?.company" [confirmText]="continueText" (done)="handleEditBookingForm($event)" [preventDefault]="true">
+  <h6 class="p-3">Flight Id : {{booking.flight?.id}}</h6>
+
+  <h6 class="p-3">Price/ticket : {{booking.flight?.ticketPrice | currency:'INR'}}</h6>
+  <h6 class="p-3">Seats Left : {{booking.flight?.seatsLeft}}</h6>
+  
+  <form class="w-50 p-3"   [formGroup]="bookingForm">
+       
+         <div class="input-group mb-3">
+           <input type="number" class="form-control" placeholder="No of Tickets" [value]="booking.numberOfTickets" formControlName="numberOfTickets" />
+       </div>
+
+       <p *ngIf="bookingForm.controls!['numberOfTickets'].invalid && bookingForm.controls!['numberOfTickets'].dirty" class="text-danger text-sm">
+           Required
+       </p>
+       <p *ngIf="validation" class="text-danger">{{validationText}}</p>
+  </form>
+</app-popup>
+
+<app-popup *ngIf="booking && editInvoicePopup"  [(visible)]="editInvoicePopup"  class="edit-invoice-popup"title="Edited Booking Invoice" [confirmText]="confirmText" (done)="handleEditBooking($event)">
+  <h6 class="p-3">Flight Id : {{booking.flight?.id}}</h6>
+  <h6 class="p-3">Price/ticket : {{booking.flight?.ticketPrice | currency:'INR'}}</h6>
+  <h6 class="p-3">Ticket Count : {{bookingEdited?.numberOfTickets}}</h6>
+  <h6 class="p-3">Total Price : {{bookingEdited?.totalPrice | currency:'INR'}}</h6>
+</app-popup>
